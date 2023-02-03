@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.header img{
+    width:10rem ;
+    height: 3rem;
+}
+
+.header-menu{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    color: white;
+    /* margin-right: 33%; */
+    font-size: 1.5rem;
+}
+.header ul li:hover{
+    color: orange;
+}
+
+.join-button button{
+    width: 7rem;
+    height: 2.1rem;
+    border: solid transparent 1px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-right: 50px;
+    background: white;
+    cursor: pointer;
+}

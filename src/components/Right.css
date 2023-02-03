@@ -1,0 +1,39 @@
+.heart{
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background:  #4c4b4be1 ;
+    color: #fff;
+    font-size: 1.1rem;
+    gap: 15px;
+    font-weight: 600;
+}
+
+.heart img{
+    height:32px;
+    width: 33px;
+}
+
+
+.guy{
+    position: absolute;
+    /* border: 1px solid red; */
+    right: 230px;
+    top: 200px;
+    z-index: 1;
+}
+
+.guy img{
+    height: 500px;
+}
+
+.circle{
+    position: absolute;
+
+}
+.circle img{
+    height: 400px;
+}

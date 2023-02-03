@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.secA{
+    background: linear-gradient(90deg, #656565 70%,rgb(255, 136, 0) 30%);
+    width: 100%;
+    height: 100vh;
+
+}
+
+.content{
+    display: flex;
+}
+
+

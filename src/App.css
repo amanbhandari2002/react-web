@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    background: blue;
+    height: 5em;
+}
+
+.navcontainer li{
+    font-size: 1.5rem;
+    
+
+}
+
+.navcontainer{
+    display: flex;
+    justify-content: right;
+    border: 1px solid red;
+
+
+}
+
+
+.navcontainer ul{
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.navcontainer ul li{
+    margin: 30px;
+    color: wheat;
+
+}

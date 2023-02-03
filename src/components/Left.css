@@ -1,0 +1,121 @@
+.s1{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: white;
+    font-size: 1.1rem;
+    border: 1px solid transparent;
+    background: rgb(63, 57, 57);
+    border-radius: 40px;
+    width: 25rem;
+    
+    text-align: center;
+    justify-content: center;
+
+     
+}
+
+.s1 span{
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    z-index: 2;
+
+    /* position: relative; */
+
+}
+.s1box{
+    position: absolute;
+    width: 5.6rem;
+    height: 58px;
+    border-radius: 26px;
+    background: rgb(255, 123, 0);
+    margin-top: 6px;
+    z-index: 1;
+}
+
+
+.s2, .s3{
+    margin-left: 50px;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.s2{
+    margin-top: 40px;
+}
+
+.s2a{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    color: transparent;
+}
+
+.s2 span{
+    margin-right: 20px;
+}
+
+.s2b{
+    color: white;
+}
+
+.s3{
+    color: #fff;
+    margin-top: 25px;
+}
+.s3 span{
+    margin-right: 20px;
+}
+
+.s4{
+    margin-left: 50px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.stats{
+    /* position: absolute; */
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    gap: 2rem;
+    left: 3%;
+    color: #fff;
+    font-size: 1.5rem;
+    /* font-weight: 700; */
+}
+
+.sCom{
+    display: flex;
+    flex-direction: column;
+}
+
+.stats-sp{
+    color: rgb(42, 41, 41);
+}
+
+.left-btn{
+    display: flex;
+    margin-left: 50px;
+    gap: 1.5rem;
+    margin-top: 30px;
+}
+
+.left-btn button{
+    width: 150px;
+    font-size: 1rem;
+    height: 40px;
+}
+
+.start-btn button{
+    background: rgb(255, 123, 0);
+    border-color: transparent;
+    color: #fff;
+    font-weight: bold;
+}
+
+.learn-m button{
+    background: transparent;
+    border: 2px solid #f48915;;
+    color: #fff;
+}
